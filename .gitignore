@@ -1,0 +1,60 @@
+# ===================================================================
+# Visual Studio C++ template
+#
+# Covers build artifacts, user-specific settings, and caches.
+# ===================================================================
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.dll
+
+# Precompiled Header files
+*.ipch
+*.pch
+
+# C/C++ style VS projects
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet Packages
+*.nupkg
+*.nuget.props
+*.nuget.targets
+packages/
+
+# vcpkg
+build/
+build.vcpkg/
+vcpkg_installed/
+
+# VS Code files (in case you use it)
+.vscode/
+
+# OS generated files
+#
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vs/
