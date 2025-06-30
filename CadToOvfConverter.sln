@@ -9,6 +9,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OvfWriterLib", "OvfWriterLi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CadToOvfConverter", "CadToOvfConverter\CadToOvfConverter.vcxproj", "{4B945275-A6CD-476B-9C8F-A038860CE5EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\GeometryContract.h = Shared\GeometryContract.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CadToOvfConverterTests", "CadToOvfConverterTests\CadToOvfConverterTests.vcxproj", "{C56A527B-3927-CAB5-002A-DDBFD31C54F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +48,14 @@ Global
 		{4B945275-A6CD-476B-9C8F-A038860CE5EE}.Release|x64.Build.0 = Release|x64
 		{4B945275-A6CD-476B-9C8F-A038860CE5EE}.Release|x86.ActiveCfg = Release|Win32
 		{4B945275-A6CD-476B-9C8F-A038860CE5EE}.Release|x86.Build.0 = Release|Win32
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Debug|x64.ActiveCfg = Debug|x64
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Debug|x64.Build.0 = Debug|x64
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Debug|x86.Build.0 = Debug|Win32
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Release|x64.ActiveCfg = Release|x64
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Release|x64.Build.0 = Release|x64
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Release|x86.ActiveCfg = Release|Win32
+		{C56A527B-3927-CAB5-002A-DDBFD31C54F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

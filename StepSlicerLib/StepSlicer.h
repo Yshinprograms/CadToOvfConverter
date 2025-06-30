@@ -3,6 +3,7 @@
 #pragma once
 
 #include <string>
+#include "GeometryContract.h"
 
 // We'll define our own simple namespace for this library
 // to keep things cleanly separated.

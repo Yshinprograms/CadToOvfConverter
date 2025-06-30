@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include "open_vector_format.pb.h"
 #include "ovf_lut.pb.h"
+#include "GeometryContract.h"
 
 namespace open_vector_format {
     namespace writer {
