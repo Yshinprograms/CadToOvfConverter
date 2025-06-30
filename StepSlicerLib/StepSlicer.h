@@ -1,25 +1,17 @@
-// StepSlicerLib/StepSlicer.h
-
 #pragma once
-
 #include <string>
-#include "GeometryContract.h"
+#include <vector> // We need this for the return type
+#include "GeometryContract.h" // And our contract
 
-// We'll define our own simple namespace for this library
-// to keep things cleanly separated.
 namespace geometry {
-
     class StepSlicer {
     public:
-        // Constructor takes the path to the STEP file.
         explicit StepSlicer(const std::string& step_file_path);
 
-        // This will be the main function we call to perform the slicing.
-        // We will define the SlicedData struct later. For now, a placeholder.
-        void Slice();
+        // CORRECTED: Update the signature to match the implementation
+        std::vector<geometry_contract::SlicedLayer> Slice(double layer_height);
 
     private:
         std::string m_file_path;
     };
-
-} // namespace geometry
+}
